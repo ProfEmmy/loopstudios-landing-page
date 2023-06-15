@@ -1,0 +1,258 @@
+.mobile-nav,
+.mobile-main,
+.mobile-navigator-div,
+.mobile-footer-div {
+    display: none;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    background-image: url("images\\desktop\\image-hero.jpg");
+}
+
+.navigators {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 75vw;
+    margin-top: 35px;
+}
+
+.links {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.links>a {
+    font-size: 17px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.links>a>hr {
+    width: 25px;
+}
+
+.logo-div>h2 {
+    color: white;
+}
+
+.links>a {
+    text-decoration: none;
+    color: white;
+}
+
+.links>a>p {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.page-descriptions-div {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.page-description {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 330px;
+    height: 170px;
+    border: .1px solid white;
+}
+
+.page-description>h1 {
+    color: white;
+    font-size: 37px;
+}
+
+.parent-vrdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.vrdiv {
+    /* width: 700px; */
+    height: 700px;
+    display: grid;
+    grid-template-areas: "overlap";
+    justify-items: center;
+    align-items: center;
+}
+
+.imgdiv {
+    display: grid;
+    grid-area: overlap;
+    margin-right: 400px;
+}
+
+.image-interactive {
+    width: 650px;
+    height: 400px;
+}
+
+.txt_div {
+    background-color: white;
+    box-shadow: 0px 0px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-area: overlap;
+    margin-left: 400px;
+    margin-top: 150px;
+    width: 450px;
+    height: 300px;
+}
+
+.txt_div>h2 {
+    font-size: 2.5em;
+    color: hsl(0, 0%, 0%);
+}
+
+.txt_div>p {
+    margin-top: -100px;
+    margin-right: -40px;
+    word-spacing: 5px;
+    color: hsl(0, 0%, 55%);
+    font-size: .7em;
+}
+
+.parent-creations-div {
+    display: grid;
+    justify-items: center;
+}
+
+.navigate-creations {
+    width: 1050px;
+    display: grid;
+    grid-template-columns: 770px auto;
+}
+
+.creations-heading-div {
+    display: grid;
+    justify-items: left;
+}
+
+.creations-heading-div>h1 {
+    letter-spacing: 3px;
+    color: hsl(0, 0%, 55%);
+
+}
+
+.see-all-div {
+    margin-top: 9px;
+}
+
+.see-all-div>p:hover {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+}
+
+.see-all-div>p {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 3px;
+    color: hsl(0, 0%, 0%);
+    margin-bottom: 0px;
+    width: 130px;
+    height: 35px;
+    font-size: 1em;
+    border: 1px solid hsl(0, 0%, 0%);
+}
+
+.creations {
+    margin-left: -110px;
+    margin-top: 30px;
+}
+
+.creations>div>img {
+    width: 200px;
+    height: 300px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-div {
+    position: relative;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 20px;
+    padding-left: 160px;
+}
+
+.footer-logo {
+    width: 120px;
+    height: 20px;
+}
+
+.sitemap-div {
+    display: flex;
+    margin-top: 15px;
+}
+
+.sitemap-div>a {
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.sitemap-div>a>hr {
+    width: 25px;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: right;
+    width: 270px;
+}
+
+.social-media-links>a>img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.social-media-links>a>hr {
+    margin-bottom: 0px;
+    color: white;
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.copyright-div {
+    margin-top: 15px;
+}
+
+.copyright-div>p {
+    color: hsl(0, 0%, 55%);
+}
+
+.display {
+    display: none;
+}
